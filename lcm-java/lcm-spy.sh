@@ -12,4 +12,4 @@ else
   exit 1
 fi
 
-exec java -server -Djava.net.preferIPv4Stack=true -Xincgc -Xmx128m -Xms64m -ea -cp $jardir/lcm.jar lcm.spy.Spy "$@"
+exec java -server -Djava.net.preferIPv4Stack=true -Xmx128m -Xms64m -ea -cp $jardir/lcm.jar lcm.spy.Spy "$@"
