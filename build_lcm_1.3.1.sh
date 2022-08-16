@@ -8,14 +8,14 @@ version=1.3.1
 ./bootstrap.sh
 ./configure
 make -j4
-checkinstall --nodoc \
-  --fstrans=no \
-  --pkgname=lcm \
-  --pkggroup=GSS \
-  --pkgversion=${version} \
-  --provides=lcm \
-  --backup=no \
-  -y \
-  --install=no \
-  make install
-mv *.deb $dir
+#checkinstall --nodoc \
+#  --fstrans=no \
+#  --pkgname=lcm \
+#  --pkggroup=GSS \
+#  --pkgversion=${version} \
+#  --provides=lcm \
+#  --backup=no \
+#  -y \
+#  --install=no \
+#  make install
+#mv *.deb $dir
