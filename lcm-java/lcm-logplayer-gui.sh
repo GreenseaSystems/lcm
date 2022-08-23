@@ -12,4 +12,4 @@ else
   exit 1
 fi
 
-exec java -server -Xincgc -Xmx64m -Xms32m -ea -cp $jardir/lcm.jar lcm.logging.LogPlayer "$@"
+exec java -server -Xmx64m -Xms32m -ea -cp $jardir/lcm.jar lcm.logging.LogPlayer "$@"
